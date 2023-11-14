@@ -91,8 +91,15 @@
   padding: 4px;
   border: none;
   background: none;
+  border-radius: 4px;
   max-width: calc(100% - 8px);
   resize: none;
+  border: 1px solid transparent;
+}
+
+.content__options__info-item-textarea:focus {
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .content__items {
