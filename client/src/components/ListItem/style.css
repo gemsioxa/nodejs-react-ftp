@@ -1,0 +1,36 @@
+.list-item {
+    cursor: pointer;
+    min-height: 72px;
+    width: 128px;
+    max-width: 128px;
+    display: flex;
+    padding: 4px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.list-item:hover {
+    background-color: #4E46B4;
+}
+
+.list-item-selected {
+    background-color: #4E46B4;
+}
+
+.list-item__img{
+    width: 32px;
+    height: 32px;
+}
+
+.list-item__text {
+    text-align: center;
+    max-width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    word-wrap: break-word;
+}
